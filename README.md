@@ -2,7 +2,7 @@
 Simple .Net Core Redis Logger Extension
 
 Usage;
-
+```
   public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             
@@ -13,3 +13,4 @@ Usage;
                                           RedisLogChannel = "logger"
                                       }));           
         }
+```
